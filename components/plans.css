@@ -1,0 +1,116 @@
+.plans {
+  padding-bottom: 80px;
+}
+.plan__left {
+  display: flex;
+  flex-direction: column;
+}
+.plans__title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  padding-top: 80px;
+}
+.plans__text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  width: 280px;
+  padding-top: 22px;
+}
+.plan__pay--row {
+  padding-top: 55px;
+}
+.plan__payment--row {
+  padding-top: 16px;
+}
+.plan__pay {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.plan__payment {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #a1a1a1;
+}
+.title {
+  padding-top:138px;
+  font-family: "Roboto" ,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border-bottom: 1px solid #ebebeb;
+  padding: 15px 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 15px;
+  color: #000000;
+  text-align: center;
+}
+.col-6 {
+  width: 50%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.name {
+  text-align: left;
+}
+i {
+  font-size: 14px;
+  color: rgb(61, 60, 60);
+}
+.plan__suptitle {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+  color: #000000;
+  padding-top: 56px;
+}
+.plan__menu {
+  padding-top: 113px;
+}
+.menu__svg {
+  padding-right: 14px;
+}
+.plan__list {
+  font-family: "Roboto" ,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.plans__list {
+  padding-bottom: 15px;
+}

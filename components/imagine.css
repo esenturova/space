@@ -1,0 +1,48 @@
+.imagine {
+  background-image: url(../img/png/imagine.png);
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.imagine__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.imagine__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 150px;
+
+  width: 300px;
+}
+.imagine__text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  width: 360px;
+  margin-top: 22px;
+}
+.imagine__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 126px;
+}

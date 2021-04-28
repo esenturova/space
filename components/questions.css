@@ -1,0 +1,36 @@
+.questions {
+  background-color: black;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+.questions__title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  padding: 75px ;
+}
+.question__list {
+  font-family: "Roboto" ,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
+  
+ 
+}
+.list-border{
+  border-top:1px solid  #CACACA ;
+  padding-top:25px;
+  padding-bottom:25px;
+}
+.list-border__bottom{
+  border-bottom:1px solid  #CACACA ;
+  padding-top:25px;
+}
+
+ 

@@ -1,0 +1,84 @@
+.header {
+  background-color: black;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  
+}
+.header__svg {
+  fill: #e9e9e9;
+  animation-name:logo;
+  animation-duration:15s;
+  animation-delay: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+ 
+
+}
+@keyframes logo{
+  20%{
+  fill:#be6f6f ;
+
+  }
+  50%{
+    fill: rgb(26, 190, 169);
+  }
+  70%{
+    fill:coral;
+  }
+  100%{
+    fill:crimson;
+  }
+}
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-right: 55px;
+  padding:33px 50px;
+}
+.header__list:hover{
+    background-color:  rgb(114, 111, 107);
+}
+
+.header__login {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding:35px 50px;
+}
+.header__login:hover{
+background-color: rgb(114, 111, 107);
+
+}
+.header__button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 22px 32px;
+  margin-left: 40px;
+}
+.header__button:hover {
+  background-color: rgb(94, 90, 90);
+  transition: 0.5s;
+}

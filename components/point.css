@@ -1,0 +1,77 @@
+.point {
+  margin: 80px 0;
+}
+.point__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.point__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 56px;
+  text-align: center;
+  color: #000000;
+}
+.point__description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+  width: 620px;
+  margin-top: 22px;
+}
+.point__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #000000;
+}
+.point__svg {
+  fill: black;
+}
+.link__point {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+.point__photo {
+  padding-top: 65px;
+}
+.point__left , .point__right {
+  display: flex;
+  flex-direction: column;
+}
+.point__left {
+  margin-right:40px;
+}
+.poin__img {
+  max-width: 100%;
+  min-height: 100%;
+}
+.point__data {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 13px;
+}
+.point__left--name {
+  font-family: "Roboto" , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #000000;
+}

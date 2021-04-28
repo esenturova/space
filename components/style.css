@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import "./header.css";
+@import "./main.css";
+@import "./hero.css";
+@import "./tools.css";
+@import "./imagine.css";
+@import "./content.css";
+@import "./merch.css";
+@import "./continue.css";
+@import "./point.css";
+@import "./member.css";
+@import "./plans.css";
+@import "./questions.css";
+@import "./support.css";
+@import "./website.css";
+@import "./footer.css";
+div,h1,h2,h3,h4,h5,h6,span,body,a,li,ul,p,img{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width:1300px;
+    margin:0 auto;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+  
+    
+}
+.col-1{
+    width:8.33%
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+width:24.99%;
+}
+.col-4{
+    width:33.32%;
+}
+.col-5{
+    width:41.65%;
+}
+.col-6{
+    width:50%;
+}
+.col-7{
+    width:58.31%;
+}
+
+.col-8{
+    width:66.64%;
+}
+.col-9{
+    width:74.97%
+}
+.col-10{
+    width:83.3%;
+}
+.col-11{
+    width:91.63;
+}
+.col-12{
+    width:100%;
+}

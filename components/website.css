@@ -1,0 +1,39 @@
+.website {
+  background-color: black;
+  background-size: cover;
+  
+  border-top:1px solid #CACACA ;
+  border-bottom:1px solid  #CACACA ;
+
+  ;
+}
+.website__title {
+  font-family: "Roboto" ,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #ffffff;
+  width:740px;
+  padding-top: 79px;
+}
+.website__button{
+    font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 21px 32px;
+ margin-top:101px;
+  
+}
+.website__row{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 120px;
+
+}
